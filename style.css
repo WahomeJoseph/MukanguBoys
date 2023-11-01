@@ -1,0 +1,623 @@
+@import url();
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 1;
+}
+#logo h1,#logo h2{
+    color:  rgb(19, 19, 177);
+}
+html{
+    scroll-behavior: smooth;
+}
+
+#navmenu{
+    transition-delay: calc(0.1s * var(--i));
+}
+body{
+    background-color: white;
+}
+#navheader{
+    background-color:#03001c;
+    padding: 10px;
+}
+#navheader a{
+    text-decoration: none;
+    color: white;
+}
+#navheader div{   
+    display: flex; 
+    justify-content: space-evenly;
+    flex-direction: row;
+    gap: 20px;
+}
+
+/* Landing page */
+#landingPage
+{
+    background: linear-gradient(175deg,white, #03001c);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    opacity: 1;
+}
+#landingPage::before
+{
+    content: '';
+    background-image: url("images//landingImage.jpg");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    opacity: .4;
+    position: absolute;
+    width: 100%;
+    
+}
+#landingPage header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    opacity: 1;
+    height: 25%;
+    position: relative;
+}
+#navbtn{
+    background-color: rgb(2, 181, 2);
+    padding: 5px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+}
+#navbtn:hover{
+    background-color:aliceblue;
+    transition: .3s ease;
+    color:#03001c;
+}
+#navbtn a{
+    color: aliceblue;
+    text-decoration: none;
+}
+#navbtn a:hover{
+    color:  rgb(19, 19, 177);
+    text-decoration: none;
+}
+#navheader p button a{
+    color: aliceblue;
+    text-align: center;
+}
+
+#logo
+{
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+#logoSchool{
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    align-self: center;
+}
+#landingPage header #navmenu{
+    display: flex;
+    padding: 0px;
+    transition-delay: calc(0.1s * var(--i));
+}
+#landingPage header #navmenu ul{
+    display: flex;
+    margin: 20px;
+    justify-content: flex-end;
+    width: 100%;
+    background-color:#03001c54;
+}
+#landingPage header #navmenu ul li{
+    list-style: none;
+    margin: 0px;
+    padding: 10px;
+    background-color:#03001c54;
+    color: white;
+}
+#landingPage header #navmenu ul li a{
+    margin: 10px;
+    list-style: none;
+    border-radius: 20px;
+    transition-delay: calc(0.25s * var(--i));
+}
+#landingPage header #navmenu ul li:hover{
+    background-color: rgb(2, 181, 2);
+}
+#landingPage header #navmenu ul li a:hover{
+    color: rgb(2, 11, 2);
+}
+/* About us */
+#aboutUs{
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    font-weight: bold;
+    color: #03001c;
+    padding: 10px;
+}
+
+#staff #card{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    height: auto;
+}
+
+/* About us */
+#aboutUs h2{
+    color: rgb(19, 19, 177);
+}
+#aboutUs li{
+    line-height: 30px;
+    list-style: none;
+}
+
+/* Our staff */
+#staff{
+    display: grid;
+    height: auto;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    text-align: justify;
+}
+#staff .card1:hover { 
+    background: #03001c8e;
+    color: white;
+    bottom: 0;
+}
+#staff .card1{
+    min-height: 500px;
+    height: fit-content;
+    padding: 5px;
+    color: #03001c;
+    position: relative;
+    border: solid #03001c 1px;
+    border-radius: 10px;
+}
+#staff .card1 img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+/* Students corner */
+#students{
+    display: grid;
+    height: auto;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+#students .studentcard1,#students .studentcard2,#students .studentcard3,#students .studentcard4{
+    min-height: 300px;
+    height: fit-content;
+    padding: 5px;
+    color: #03001c;
+    position: relative;
+    border: solid #03001c 1px;
+    border-radius: 10px;
+    margin-trim: true;
+}
+
+.studentcard1:hover .studentcard1::before,.studentcard2:hover .studentcard2::before,.studentcard3:hover .studentcard3::before,.studentcard4:hover .studentcard4::before{
+    opacity: 1;
+    content: "";
+    height: 100%;
+    width: 100%;
+}
+.studentcard4 p,.studentcard3 p ,.studentcard2 p,.studentcard1 p   {
+    position: relative;
+    color: #03001c;
+    line-height: 25px;
+}
+.studentcard1::before{
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-image: url("images/image1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position:absolute;
+    opacity: .2;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+.studentcard2::before{
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-image: url("images/image2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position:absolute;
+    opacity: .2;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+  
+}
+.studentcard3::before{
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-image: url("images/image3.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position:absolute;
+    opacity: .2;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+.studentcard4::before{
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-image: url("images/image4.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position:absolute;
+    opacity: .2;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+/* Footer */
+#footer{
+    background-color:#03001c;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    margin-top: 20px;
+}
+#footer #socialfooter{
+    display: flex;
+    justify-content: space-evenly;
+}
+#footer #socialfooter div ul li a,a{
+    text-decoration: none;
+    color: white;
+}
+#footer #socialfooter div ul li{
+    list-style: none;
+    line-height: 40px;
+}
+#copy{
+    text-align: center;
+    margin-bottom: 0;
+    color: white;
+    margin-top: 50px;
+}
+#footer h2{
+    color:  rgb(2, 181, 2);
+}
+
+.fas{
+    font-size: 30px;
+    left: 20px;
+    color: red;
+}
+#toggleButton{
+    float: right;
+    margin-right: 10px;
+    cursor: pointer;
+    position: absolute;
+    color: red;
+}
+#toggleButton a{
+    text-decoration: none;
+    text-transform: capitalize;
+    text-emphasis: none;
+}
+
+
+
+/* Responsiveness */
+@media screen and (max-width:500px) {
+    /* Landing Page */
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+        opacity: 1;
+    }
+    html{
+        scroll-behavior: smooth;
+    }
+    body{
+        background-color: antiquewhite;
+    }
+    
+    /* Landing page */
+    #landingPage
+    {
+       
+        height: calc(100vh - 300px);
+        background-position: center;
+        background-size: cover;
+    }
+    #landingPage::before
+    {
+    content: '';
+    background-image: url("images//landingImage.jpg");
+    height: 60vh;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.2;
+    position: absolute;
+    width: 100%;
+    }
+    #landingPage header{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        opacity: 1;
+        height: fit-content;
+    }
+    #landingPage header #logo{
+        font-size: .6rem;
+    }
+    #landingPage #navmenu ul{
+        font-size: .7rem;
+        display: flex;
+        flex-direction: column;
+    }
+    #logo
+    {
+        margin: 15px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    #logoSchool{
+        text-align: center;
+        align-self: center;
+    }
+    #landingPage #navmenu {
+        color: white;
+        padding: 0px;
+        border-radius: 5px;
+        position: relative;
+        transition-delay: calc(0.1s * var(--i));
+        transform: translateX(50px);
+    }
+    #landingPage #navmenu ul{
+        display: flex;
+        gap:1px;
+    }
+    #landingPage #navmenu ul li a{
+        list-style: none;
+        margin: 5px;
+        padding: 5px;
+        border-radius: 20px;
+    }
+    
+    #navheader{
+        background-color: navy;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: fit-content;
+        padding: 5px;
+    }
+    #navheader a{
+        text-decoration: none;
+        color: white;
+    }
+    #navheader div{   
+        display: flex; 
+        width: 100svw;
+        justify-content: space-evenly;
+        flex-direction:column;
+        gap: 10px;
+        font-size: .7rem;
+    }
+    #navheader div div{  
+        margin: 5px 20px; 
+    }
+    #navheader div div button{   
+        width: fit-content;
+        padding: 5px 10px;
+        border-radius: 20px;
+        font-size: .7rem;
+        outline: none;
+        border: none;
+    }
+    #navbtn{
+        background-color: rgb(2, 181, 2);
+        padding: 10px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    #navbtn:hover{
+        background-color:white;
+        transition: .3s ease;
+        color: rgb(19, 19, 177);
+    }
+    #navbtn a{
+        color: white;
+        text-decoration: none;
+    }
+    #navbtn a:hover{
+        color:  rgb(19, 19, 177);
+        text-decoration: none;
+    
+    }
+    #navheader p button a{
+        color: white;
+        text-align: center;
+    }
+    
+#landingPage header #navmenu{
+    display: flex;
+    padding: 0px;
+    transition-delay: calc(0.1s * var(--i));
+}
+#landingPage header #navmenu ul{
+    display: flex;
+    margin: 20px;
+    justify-content: flex-end;
+    width: 100%;
+    background-color:#03001c54;
+}
+#landingPage header #navmenu ul li{
+    list-style: none;
+    margin: 0px;
+    padding: 10px;
+    cursor: pointer;
+}
+#landingPage header #navmenu ul li a{
+    margin: 10px;
+    list-style: none;
+    border-radius: 20px;
+    transition: .5s;
+    transition-delay: calc(0.25s * var(--i));
+}
+#landingPage header #navmenu ul li:hover{
+    background-color: rgb(2, 181, 2);
+}
+#landingPage header #navmenu ul li a:hover{
+    color: rgb(2, 11, 2);
+}
+
+
+    /* About US */
+    #aboutUs{
+        height: fit-content;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        align-items: center;
+        justify-content: center;
+        background-color: cornsilk;
+        font-weight: bold;
+        font-size: .8rem;
+        color: #03001c;
+    }
+
+    /* Staff */
+    #staff{
+        font-size: .8rem;
+        display: grid;
+        min-height: fit-content;
+        grid-gap: 10px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        text-align: center;
+    }
+    #staff .card1:hover { 
+        background-color:#03001c;
+        color: aliceblue;
+        bottom: 0;
+    }
+    #staff .card1{
+        min-height: max-content;
+        text-align: justify;
+        padding: 5px;
+        color: #03001c;
+        position: relative;
+        border: solid #03001c 1px;
+        border-radius: 10px;
+    }
+    #staff .card1 img{
+        width: 100px;
+        height: 100px;
+    }
+
+    /* Students */
+    #students{
+        font-size: .8rem;
+    }
+    #students h2{
+        font-weight: bold;
+    }
+    .studentcard4 p,.studentcard3 p ,.studentcard2 p,.studentcard1 p   {
+        position: relative;
+        font-weight: 300;
+        color: #03001c;
+        line-height: 1rem;
+    }
+    .studentcard1,.studentcard2,.studentcard3,.studentcard4{
+       
+        min-height: fit-content;
+        padding: 1px;
+        color: #03001c;
+        position: relative;
+        border: solid #03001c 1px;
+        border-radius: 10px;
+    }
+
+
+    
+/* Footer */
+#footer{
+    background-color:#03001c;
+    color: white;
+    font-size: .8rem;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+#footer #socialfooter{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#footer #socialfooter div ul li a,a{
+    text-decoration: none;
+    color: white;
+}
+#footer #socialfooter div ul li{
+    list-style: none;
+    line-height: 2rem;
+}
+#copy{
+    text-align: center;
+    margin-bottom: 0;
+    color: white;
+    margin-top: 50px;
+}
+#footer h2{
+    color:  rgb(2, 181, 2);
+}
+
+.fas{
+    font-size: 30px;
+    left: 20px;
+    color: red;
+    padding: 100px;
+}
+#navmenu ul li{
+    transition-delay: calc(0.1s * var(--i));
+}
+}

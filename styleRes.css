@@ -1,0 +1,236 @@
+@media screen and (max-width:500px) {
+    Landing page
+    #landingPage
+    {
+        background-image: url("images//sunrise-university-bK5t_WPETow-unsplash.jpg");
+        height: 100vh;
+        background-position: center;
+        background-size: cover;
+    }
+    #landingPage header{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        opacity: 1;
+        /* height: 15%; */
+    }
+    #navheader{
+        background-color: navy;
+        padding: 5px;
+    }
+    #navheader div{   
+        display: flex; 
+        /* flex-direction: column; */
+        gap: 5px;
+    }
+    #navheader div div{  
+        display: flex;
+        font-size: .7rem; 
+    }
+    
+
+    #navbtn{
+        background-color: #ff4500;
+        padding: 5px 0;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: .7rem;
+    }
+    
+    #logo
+    {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    #logoSchool{
+        text-align: center;
+        align-self: center;
+    }
+    #navmenu {
+        color: white;
+        padding: 10px;
+        border-radius: 10px;
+        position: relative;
+        margin-top: 10px;
+        float: right;
+        margin-right: 2px;
+    }
+    #navmenu ul{
+        display: flex;
+        flex-direction: column;
+        gap:5px;
+        display: none;
+    }
+    #navmenu ul li{
+        list-style: none;
+        font-size: 10px;
+        background-color: green;
+        margin: 5px;
+        padding: 5px 5px;
+        border-radius: 5px;
+    }
+    
+    #logo
+    {
+        margin: 5px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    #logo h1
+    {
+        font-size: 1rem;
+    }
+    /* #logo h2
+    {
+        font-size: .5rem;
+    } */
+    #logo img 
+    {
+        font-size: 18px;
+    }
+    #logoSchool{
+        border-radius: 50%;
+        height: 60px;
+        width: 60px;
+    }
+    
+    /* About us */
+    #aboutUs{
+        height: 100vh;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    /* About us */
+    #aboutUs
+    {
+        background-color: #1F4068;
+        height: fit-content;
+    }
+    #aboutUs h2{
+        font-size: .8rem;
+    }
+    #aboutUs li{
+        font-size: .5rem;
+        line-height: 10px;
+    }
+    
+    /* Our staff */
+    .card1{
+        background-color: grey;
+        height: auto;
+        border: 1px solid black;
+        border-radius: 5px;
+        padding: 10px;
+        color: black;
+    }
+    #staff .card1 { 
+        color: #fff;
+        /* bottom: 0; */
+    }
+    #staff .card1:hover { 
+        background-color: #1F4068;
+        bottom: 0;
+    }
+    .card{
+        display: grid;
+        grid-gap: 5px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+   
+
+    #students{
+        display: grid;
+        height: auto;
+        grid-gap: 5px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    .studentcard1,.studentcard2,.studentcard3,.studentcard4{
+        height: 400px;
+        padding: 10px;
+        color: black;
+        position: relative;
+        border: solid black 1px;
+        border-radius: 10px;
+    }
+    .studentcard1:hover p,.studentcard2:hover p , .studentcard3:hover p, .studentcard4:hover p{
+        display: none;
+    }
+    .studentcard1:hover .fa,.studentcard2:hover p , .studentcard3:hover p, .studentcard4:hover p{
+        display: none;
+        color: white;
+    }
+    .studentcard4 p,.studentcard3 p ,.studentcard2 p,.studentcard1 p   {
+        position: relative;
+        font-weight: bold;
+        color: black;
+        line-height: normal;
+    }
+   
+    
+    h1{
+        font-size: 1rem;
+    }
+    h2{
+        font-size: .8rem;
+    } 
+    p{
+        font-size: .7rem;
+        font-weight: 100;
+    }
+    
+    #fas{
+        font-size: .6rem;
+        left: 5px;
+    }
+
+
+
+    
+/* Footer */
+#footer{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    align-items: center;
+
+}
+#footer #socialfooter{
+    display: flex;
+    flex-direction: column;
+}
+#footer #socialfooter div{
+    display: flex;
+    flex-direction: column;
+}
+#footer #socialfooter div h2{
+    font-size: .8rem;
+    float: left;
+}
+#footer #socialfooter div ul li{
+    font-size: .7rem;
+}
+#footer #socialfooter div ul li i{
+    font-size: .5rem;
+}
+#footer #socialfooter div a{
+    font-size: .7rem;
+}
+#copy{
+    text-align: center;
+    margin-bottom: 0;
+    color: white;
+    margin-top: 10px;
+}
+}
