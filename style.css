@@ -635,4 +635,22 @@ body{
 #navmenu ul li{
     transition-delay: calc(0.1s * var(--i));
 }
+    #toggleB{
+     visibility: hidden;
+}
+#toggleButton{
+    float: right;
+    margin-right: 10px;
+    cursor: pointer;
+    position: absolute;
+    color: red;
+}
+ #toggleButton{
+        visibility: hidden;
+    }
+#toggleButton a{
+    text-decoration: none;
+    text-transform: capitalize;
+    text-emphasis: none;
+}
 }
