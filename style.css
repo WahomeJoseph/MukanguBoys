@@ -324,7 +324,7 @@ body{
     color: red;
 }
 #toggleB{
-    display:none;
+     visibility: hidden;
 }
 #toggleButton{
     float: right;
@@ -333,6 +333,9 @@ body{
     position: absolute;
     color: red;
 }
+ #toggleButton{
+        visibility: hidden;
+    }
 #toggleButton a{
     text-decoration: none;
     text-transform: capitalize;
@@ -350,6 +353,9 @@ body{
         box-sizing: border-box;
         font-family: Arial, Helvetica, sans-serif;
         opacity: 1;
+    }
+    #toggleButton{
+        visibility: hidden;
     }
     html{
         scroll-behavior: smooth;
