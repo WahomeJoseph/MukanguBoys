@@ -356,7 +356,7 @@ body{
         opacity: 1;
     }
     #toggleButton{
-        visibility: hidden;
+        visibility: visible;
     }
     html{
         scroll-behavior: smooth;
