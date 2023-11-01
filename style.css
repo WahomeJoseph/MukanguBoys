@@ -1,4 +1,4 @@
-@import url();
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -289,7 +289,8 @@ body{
 
 /* Footer */
 #footer{
-    background-color:#03001c;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(25,186,52,1) 34%, rgba(33,192,186,1) 61%, rgba(10,173,24,1) 100%);
     color: white;
     display: flex;
     flex-direction: column;
@@ -315,7 +316,7 @@ body{
     margin-top: 50px;
 }
 #footer h2{
-    color:  rgb(2, 181, 2);
+    color:  #000000;
 }
 
 .fas{
@@ -339,7 +340,7 @@ body{
 
 
 /* Responsiveness */
-@media screen and (max-width:500px) {
+@media screen and (max-width:800px) {
     /* Landing Page */
     *{
         padding: 0;
