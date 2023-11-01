@@ -355,7 +355,11 @@ body{
         font-family: Arial, Helvetica, sans-serif;
         opacity: 1;
     }
-    #toggleButton{
+  
+    #toggleB{
+        visibility: visible;
+    }
+      #toggleButton{
         visibility: visible;
     }
     html{
