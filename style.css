@@ -437,8 +437,9 @@ body{
         width: 100svw;
         justify-content: space-evenly;
         flex-direction:column;
-        gap: 10px;
+        gap: 5px;
         font-size: .7rem;
+        padding:20px;
     }
     #navheader div div{  
         margin: 5px 20px; 
