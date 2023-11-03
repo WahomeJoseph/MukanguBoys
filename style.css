@@ -505,7 +505,7 @@ body{
     list-style: none;
     border-radius: 20px;
     transition: .5s;
-    font-size: 25px;
+    font-size: 30px;
     transition-delay: calc(0.25s * var(--i));
 }
 #landingPage header #navmenu ul li:hover{
@@ -629,6 +629,7 @@ body{
 }
     #toggleB{
      visibility: visible;
+        margin-bottom:10px;
 }
 
  #toggleButton{
