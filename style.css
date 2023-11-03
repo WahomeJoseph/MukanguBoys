@@ -482,8 +482,8 @@ body{
 #landingPage header #navmenu ul{
     display: flex;
     margin: 20px;
-    justify-content: flex-end;
-    width: 100%;
+    flex-direction:column;
+    width: fit-content;
     background-color:#03001c54;
 }
 #landingPage header #navmenu ul li{
