@@ -482,7 +482,8 @@ body{
 #landingPage header #navmenu ul{
     display: flex;
     margin: 20px;
-    flex-direction:column;
+    gap:20px;
+    flex-direction: column;
     width: fit-content;
     background-color:#03001c54;
 }
@@ -608,7 +609,7 @@ body{
     margin-top: 50px;
 }
 #footer h2{
-    color:  rgb(2, 181, 2);
+    color:  black;
 }
 
 .fas{
@@ -620,7 +621,7 @@ body{
 
     #toggleB{
      visibility: visible;
-        margin-bottom:10px;
+        margin-bottom:20px;
 }
 
  #toggleButton{
