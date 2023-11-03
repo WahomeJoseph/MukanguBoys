@@ -497,7 +497,7 @@ body{
     transition-delay: calc(0.1s * var(--i));
 }
 #landingPage header #navmenu ul li a{
-    margin: 20px;
+    margin: 10px;
     list-style: none;
     border-radius: 20px;
     transition: .5s;
