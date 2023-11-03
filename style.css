@@ -105,11 +105,13 @@ body{
 }
 #landingPage header #navmenu{
     display: flex;
+    flex-direction:column;
     padding: 0px;
     transition-delay: calc(0.1s * var(--i));
 }
 #landingPage header #navmenu ul{
     display: flex;
+    
     margin: 20px;
     justify-content: flex-end;
     width: 100%;
