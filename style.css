@@ -391,9 +391,10 @@ body{
         font-size: .6rem;
     }
     #landingPage #navmenu ul{
-        font-size: .7rem;
         display: flex;
         flex-direction: column;
+        font-size: .7rem;
+        gap:1px;
     }
     #logo
     {
@@ -415,10 +416,7 @@ body{
         transition-delay: calc(0.1s * var(--i));
         transform: translateX(50px);
     }
-    #landingPage #navmenu ul{
-        display: flex;
-        gap:1px;
-    }
+   
     #landingPage #navmenu ul li a{
         list-style: none;
         margin: 5px;
@@ -499,13 +497,14 @@ body{
     margin: 0px;
     padding: 20px 10px;
     cursor: pointer;
+    transition-delay: calc(0.1s * var(--i));
 }
 #landingPage header #navmenu ul li a{
     margin: 20px;
     list-style: none;
     border-radius: 20px;
     transition: .5s;
-    font-size: 30px;
+    font-size: 1rem;
     transition-delay: calc(0.25s * var(--i));
 }
 #landingPage header #navmenu ul li:hover{
@@ -624,9 +623,7 @@ body{
     color: red;
     padding: 100px;
 }
-#navmenu ul li{
-    transition-delay: calc(0.1s * var(--i));
-}
+
     #toggleB{
      visibility: visible;
         margin-bottom:10px;
