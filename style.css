@@ -421,12 +421,12 @@ body{
     } */
     
     #navheader{
-        background-color: navy;
+         background-color:#03001c;
         display: flex;
         flex-direction: row;
         width: 100%;
         height: fit-content;
-        padding: 5px;
+        padding: 0px;
     }
     #navheader a{
         text-decoration: none;
@@ -439,10 +439,10 @@ body{
         flex-direction:column;
         gap: 5px;
         font-size: .7rem;
-        padding:20px;
+        padding:10px;
     }
     #navheader div div{  
-        margin: 5px 20px; 
+        margin: 2px 5px; 
     }
     #navheader div div button{   
         width: fit-content;
