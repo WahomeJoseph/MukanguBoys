@@ -493,13 +493,13 @@ body{
 }
 #landingPage header #navmenu ul li{
     list-style: none;
-    margin: 10px;
+    margin: 5px;
     padding: 5px;
     cursor: pointer;
     transition-delay: calc(0.1s * var(--i));
 }
 #landingPage header #navmenu ul li a{
-    margin: 10px;
+    margin: 5px;
     list-style: none;
     border-radius: 20px;
     transition: .5s;
