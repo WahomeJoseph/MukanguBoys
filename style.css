@@ -366,7 +366,7 @@ body{
     #landingPage
     {
        
-        height: calc(100vh - 250px);
+        height: calc(100vh - 150px);
         background-position: center;
         background-size: cover;
     }
