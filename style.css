@@ -421,7 +421,7 @@ body{
     } */
     
     #navheader{
-         background-color:#03001c;
+        background-color:#03001c;
         display: flex;
         flex-direction: row;
         width: 100%;
@@ -437,9 +437,10 @@ body{
         width: 100svw;
         justify-content: space-evenly;
         flex-direction:column;
+        background-color:#03001c;
         gap: 5px;
         font-size: .7rem;
-        padding:10px;
+        padding:5px;
     }
     #navheader div div{  
         margin: 2px 5px; 
