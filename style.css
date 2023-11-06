@@ -22,8 +22,8 @@ body{
 
 .slidercontainer{
     overflow: hidden;
-    width: 500px;
-    height: 300px;
+    width: 900px;
+    height: 600px;
     border-radius: 10px;
     box-shadow:  2px 1.5px 2px white;
     position: relative;
@@ -154,7 +154,7 @@ body{
     margin: 20px;
     justify-content: flex-end;
     width: 100%;
-    background-color:#002949;
+    background-color: #002949;
 }
 #landingPage header #navmenu ul li{
     list-style: none;
