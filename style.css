@@ -22,8 +22,8 @@ body{
 
 .slidercontainer{
     overflow: hidden;
-    width: 1500px;
-    height: 800px;
+    width: 90vw;
+    height: 90vh;
     border-radius: 10px;
     box-shadow:  2px 1.5px 2px white;
     position: relative;
@@ -31,6 +31,7 @@ body{
 .imagecontainer{
     display: flex;
     transition: transform .4s ease-in-out;
+    position: absolute;
 }
 .btn{
     position: absolute;/*inside container relative to parent*/
