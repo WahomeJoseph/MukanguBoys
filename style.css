@@ -29,6 +29,12 @@ body{
     position: relative;
     transform: translateX(-50%);
     margin: 20px 100px;
+    
+    width: 100%; /* Set the width of the container */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+
 }
 
 
