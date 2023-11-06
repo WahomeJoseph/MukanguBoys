@@ -34,7 +34,6 @@ body{
 .imagecontainer{
     display: flex;
     transition: transform .4s ease-in-out;
-     transform: translateX(-50%);
 }
 .btn{
     position: absolute;/*inside container relative to parent*/
