@@ -22,13 +22,13 @@ body{
 
 .slidercontainer{
     overflow: hidden;
-    width: 900px;
-    height: 600px;
+    width: 800px;
+    height: 500px;
     border-radius: 10px;
     box-shadow:  2px 1.5px 2px white;
     position: relative;
     transform: translateX(-50%);
-    margin: auto;
+    margin: 20px 100px;
 }
 
 
