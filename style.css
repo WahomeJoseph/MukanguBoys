@@ -223,7 +223,7 @@ body{
     min-height: 500px;
     height: fit-content;
     padding: 5px;
-    color: #03001c;
+    color: #002949;
     position: relative;
     border: solid #03001c 1px;
     border-radius: 10px;
@@ -246,7 +246,7 @@ body{
     min-height: 300px;
     height: fit-content;
     padding: 5px;
-    color: #03001c;
+    color: #002949;
     position: relative;
     border: solid #03001c 1px;
     border-radius: 10px;
@@ -261,7 +261,7 @@ body{
 }
 .studentcard4 p,.studentcard3 p ,.studentcard2 p,.studentcard1 p   {
     position: relative;
-    color: #03001c;
+    color: #002949;
     line-height: 25px;
 }
 .studentcard1::before{
@@ -342,7 +342,7 @@ body{
 }
 #footer #socialfooter div ul li a,a{
     text-decoration: none;
-    color: white;
+    color: #002949;
 }
 #footer #socialfooter div ul li{
     list-style: none;
@@ -355,7 +355,7 @@ body{
     margin-top: 50px;
 }
 #footer h2{
-    color:  #000000;
+  color: #002949;
 }
 
 .fas{
@@ -578,7 +578,7 @@ body{
         text-align: center;
     }
     #staff .card1:hover { 
-        background-color:#03001c;
+        background-color: #002949;
         color: aliceblue;
         bottom: 0;
     }
@@ -638,7 +638,7 @@ body{
 }
 #footer #socialfooter div ul li a,a{
     text-decoration: none;
-    color: white;
+    color: #002949;
 }
 #footer #socialfooter div ul li{
     list-style: none;
