@@ -29,6 +29,7 @@ body{
     margin: 10px;
     box-shadow:  2px 1.5px 2px white;
     position: relative;
+    transform: translateX(-50%);
 }
 /* body{
     height: 100vh;
@@ -41,9 +42,7 @@ body{
 .imagecontainer{
     display: flex;
     flex-direction: row;
-    transition: transform .4s ease-in-out;
-    width: 80%;
-    height: 80vh;    
+    transition: transform .4s ease-in-out;   
 }
 .btn{
     position: absolute;/*inside container relative to parent*/
