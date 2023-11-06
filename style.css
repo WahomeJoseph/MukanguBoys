@@ -6,7 +6,7 @@
     opacity: 1;
 }
 #logo h1,#logo h2{
-    color:  rgb(19, 19, 177);
+    color:  #002949;
 }
 html{
     scroll-behavior: smooth;
