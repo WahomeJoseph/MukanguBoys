@@ -27,12 +27,14 @@ body{
     border-radius: 10px;
     box-shadow:  2px 1.5px 2px white;
     position: relative;
+    transform: translateX(-50%);
 }
 
 
 .imagecontainer{
     display: flex;
     transition: transform .4s ease-in-out;
+     transform: translateX(-50%);
 }
 .btn{
     position: absolute;/*inside container relative to parent*/
