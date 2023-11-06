@@ -37,9 +37,13 @@ body{
     background-color: sandybrown;
 } */
 .imagecontainer{
+    position: absolute;
     display: flex;
     flex-direction: row;
     transition: transform .4s ease-in-out;
+    width: 80%;
+    height: 80vh;
+    
 }
 .btn{
     position: absolute;/*inside container relative to parent*/
