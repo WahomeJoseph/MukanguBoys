@@ -112,6 +112,7 @@ body{
     height: 25%;
     position: relative;
     top: 20px;
+    position: fixed;
 }
 #navbtn{
     background-color: rgb(2, 181, 2);
