@@ -67,6 +67,8 @@ body{
 #navheader{
     background-color: #002949;
     padding: 10px;
+    position:fixed;
+    top: 0px;
 }
 #navheader a{
     text-decoration: none;
@@ -111,7 +113,7 @@ body{
     opacity: 1;
     height: 25%;
     position: relative;
-    top: 20px;
+    top: 30px;
     position: fixed;
 }
 #navbtn{
