@@ -26,9 +26,10 @@ body{
     height: 500px;
     border-radius: 10px;
     box-shadow:  2px 1.5px 2px white;
-    position: relative;
+    position: absolute;
+    top: 50px;
+    
     transform: translateX(-50%);
-    margin: 20px 100px;
     
     width: 100%; /* Set the width of the container */
     display: flex;
