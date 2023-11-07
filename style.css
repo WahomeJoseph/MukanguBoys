@@ -83,14 +83,13 @@ body{
 #landingPage
 {
     background: linear-gradient(175deg,white, #03001c);
-    height: 100vh;
+    height: 110vh;
     background-position: center;
     background-size: cover;
     position: relative;
     opacity: 1;
     display:flex;
     flex-direction:column;
-    align-items:center;
     justify-content:center;
 }
 #landingPage::before
