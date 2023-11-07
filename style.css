@@ -179,7 +179,7 @@ body{
     list-style: none;
     border-radius: 20px;
     transition-delay: calc(0.25s * var(--i));
-    color:#ffffff;
+    color: white;
 }
 #landingPage header #navmenu ul li:hover{
     background-color: rgb(2, 181, 2);
@@ -556,12 +556,14 @@ body{
     transition: .5s;
     font-size: 1rem;
     transition-delay: calc(0.25s * var(--i));
+    color: white;
 }
 #landingPage header #navmenu ul li:hover{
     background-color: rgb(2, 181, 2);
 }
 #landingPage header #navmenu ul li a:hover{
     color: rgb(2, 11, 2);
+    color: white;
 }
 
 
