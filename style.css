@@ -29,10 +29,10 @@ body{
     position: absolute;
     top: 50px;
     
-    transform: translateX(-50%);
+/*     transform: translateX(-50%);
     
     width: 100%; /* Set the width of the container */
-    display: flex;
+/*     display: flex; */ */
     justify-content: center; /* Center horizontally */
     align-items: center; /* Center vertically */
 
