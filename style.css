@@ -27,7 +27,8 @@ body{
     border-radius: 10px;
     box-shadow:  2px 1.5px 2px white;
     position: absolute;
-    top: 50px;
+    top: 100px;
+    left: 50px;
     
 /*     transform: translateX(-50%);
     
