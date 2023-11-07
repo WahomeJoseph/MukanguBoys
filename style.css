@@ -178,6 +178,7 @@ body{
     list-style: none;
     border-radius: 20px;
     transition-delay: calc(0.25s * var(--i));
+    color:#ffffff;
 }
 #landingPage header #navmenu ul li:hover{
     background-color: rgb(2, 181, 2);
